@@ -21,16 +21,36 @@ td {
 }
 
 .Event {
-    width: 180px;
-    padding: 10px;
+    width: 220px;
+    padding: 15px;
     margin: 0;
     border-radius: 8px;
+    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+    box-sizing: border-box;
+}
+
+.Event-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
 
 .Event h6, h5 {
-  line-height: 0px;
+  line-height: 1.2;
   align-content: center;
+}
+
+.event-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.event-link:hover {
+    text-decoration: underline;
 }
 
 .Grid {
