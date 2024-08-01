@@ -1,6 +1,22 @@
 import React from 'react';
 import Event from './Event';
 import britishMuseumImg from '../assets/british_museum.png'
+import royalAlbertHallImg from '../assets/royal_albert_hall.jpg'
+import tateModernImg from '../assets/tate_modern.jpg'
+import nationalTheatreImg from '../assets/national_theatre.jpg'
+import boroughMarketImg from '../assets/borough_market.jpeg'
+import westminsterAbbeyImg from '../assets/westminster_abbey.jpg'
+import towerPierImg from '../assets/tower_pier.jpg'
+import BFIsouthbankImg from '../assets/BFI_southbank.jpeg'
+import hydeParkImg from '../assets/hyde_park.jpg'
+import wembleyStadiumImg from '../assets/wembley_stadium.jpg'
+import comedyStoreImg from '../assets/comedy_store.jpg'
+import scienceMuseumImg from '../assets/science_museum.jpg'
+import kewGardensImg from '../assets/kew_gardens.jpeg'
+import royalOperaHouseImg from '../assets/royal_opera_house.jpg'
+import spitalfieldsMarketsImg from '../assets/spitalfields_markets.jpg'
+
+
 
 const Grid = () => {
     const events = [
@@ -19,6 +35,7 @@ const Grid = () => {
             location: 'Royal Albert Hall',
             color: 'lightcoral',
             category: 'Music',
+            photo: royalAlbertHallImg,
             link: 'https://www.royalalberthall.com'
         },
         {
@@ -27,6 +44,7 @@ const Grid = () => {
             location: 'Tate Modern',
             color: 'lightgreen',
             category: 'Cultural',
+            photo: tateModernImg,
             link: 'https://www.tate.org.uk'
         },
         {
@@ -35,6 +53,7 @@ const Grid = () => {
             location: 'National Theatre',
             color: 'purple',
             category: 'Cultural',
+            photo: nationalTheatreImg,
             link: 'https://www.nationaltheatre.org.uk'
         },
         {
@@ -43,6 +62,7 @@ const Grid = () => {
             location: 'Borough Market',
             color: 'orange',
             category: 'Markets and Fairs',
+            photo: boroughMarketImg,
             link: 'https://www.boroughmarket.org.uk'
         },
         {
@@ -51,6 +71,7 @@ const Grid = () => {
             location: 'Westminster Abbey',
             color: 'yellow',
             category: 'Cultural',
+            photo: westminsterAbbeyImg,
             link: 'https://www.westminster-abbey.org'
         },
         {
@@ -59,6 +80,7 @@ const Grid = () => {
             location: 'Tower Pier',
             color: 'lightblue',
             category: 'Outdoor and Nature',
+            photo: towerPierImg,
             link: 'https://www.thamesclippers.com'
         },
         {
@@ -67,6 +89,7 @@ const Grid = () => {
             location: 'BFI Southbank',
             color: 'lightcoral',
             category: 'Educational',
+            photo: BFIsouthbankImg,
             link: 'https://www.bfi.org.uk'
         },
         {
@@ -75,6 +98,7 @@ const Grid = () => {
             location: 'Hyde Park',
             color: 'lightgreen',
             category: 'Music',
+            photo: hydeParkImg,
             link: 'https://www.hydeparkwinterwonderland.com'
         },
         {
@@ -83,6 +107,7 @@ const Grid = () => {
             location: 'Wembley Stadium',
             color: 'purple',
             category: 'Sports',
+            photo: wembleyStadiumImg,
             link: 'https://www.wembleystadium.com'
         },
         {
@@ -91,6 +116,7 @@ const Grid = () => {
             location: 'The Comedy Store',
             color: 'pink',
             category: 'Music',
+            photo: comedyStoreImg,
             link: 'https://thecomedystore.co.uk'
         },
         {
@@ -99,6 +125,7 @@ const Grid = () => {
             location: 'Science Museum',
             color: 'teal',
             category: 'Educational',
+            photo: scienceMuseumImg,
             link: 'https://www.sciencemuseum.org.uk'
         },
         {
@@ -107,6 +134,7 @@ const Grid = () => {
             location: 'Kew Gardens',
             color: 'lightgreen',
             category: 'Outdoor and Nature',
+            photo: kewGardensImg,
             link: 'https://www.kew.org'
         },
         {
@@ -115,6 +143,7 @@ const Grid = () => {
             location: 'Royal Opera House',
             color: 'darkred',
             category: 'Cultural',
+            photo: royalOperaHouseImg,
             link: 'https://www.roh.org.uk'
         },
         {
@@ -123,6 +152,7 @@ const Grid = () => {
             location: 'Spitalfields Market',
             color: 'beige',
             category: 'Markets and Fairs',
+            photo: spitalfieldsMarketsImg,
             link: 'https://www.spitalfields.co.uk'
         }
     ];
